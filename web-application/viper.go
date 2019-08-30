@@ -10,7 +10,7 @@ import (
 
 func main() {
 	// Set loc config file
-	viper.SetConfigFile("./config/env.json")
+	viper.SetConfigFile("config.json")
 
 	// Show error jika file config tidak ada
 	if err := viper.ReadInConfig(); err != nil {
