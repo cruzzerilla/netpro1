@@ -355,13 +355,13 @@ Membuat file config dengan format .json
 ![alt screenshot6][6]
 
 
-[2]: screenshoot/for.png
-[22]: screenshoot/ifelse.png
-[3]: screenshoot/array.png
-[32]: screenshoot/function.png
-[4]: screenshoot/struct.png
-[42]: screenshoot/method.png
-[5]: screenshoot/multiple-return-val.png
-[52]: screenshoot/command-line.png
-[6]: screenshoot/simple-web-app.png
-[7]: screenshoot/web-app-viper.png
+[2]: screenshot/for.png
+[22]: screenshot/ifelse.png
+[3]: screenshot/array.png
+[32]: screenshot/function.png
+[4]: screenshot/struct.png
+[42]: screenshot/method.png
+[5]: screenshot/multiple-return-val.png
+[52]: screenshot/command-line.png
+[6]: screenshot/simple-web-app.png
+[7]: screenshot/web-app-viper.png
