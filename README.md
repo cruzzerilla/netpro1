@@ -3,9 +3,22 @@
 ## Nomor 1
 ### TCP Finite State Machine
 Diagram TCP Finite State Machine menggambarkan proses terjadinya Three-way Handshake saat client-server melakukan pembuatan koneksi TCP.
-### Server
-
 ### Client
+* Client Active open.
+* Client mengirim SYN (SYN SENT)
+* Client menerima SYN,ACK lalu mengirim kembali ACK (CONNECTION ESTABLISHED)
+* CLient mengirim FIN (FIN WAIT 1)
+* Client menerima ACK (FIN WAIT 2)
+* Client menerima FIN, dan mengirim ACK (TIME WAIT)
+* Timeout, koneksi berakhir. (CLOSED)
+
+### Server
+* Server membuat koneksi Passive open. (LISTEN)
+* Server menerima SYN, lalu mengirim SYN,ACK (SYN RCVD)
+* Server menerima ACK (CONNECTION ESTABLISHED)
+* Server menerima FIN, lalu mengirim ACK (CLOSE WAIT)
+* Server mengirim FIN (LAST ACK)
+* Server menerima ACK, lalu mengkahiri koneksi (CLOSED)
 
 ## Nomor 2
 ### For
